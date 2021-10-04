@@ -34,16 +34,17 @@
                 "/lib/pkgconfig"
             ],
             "config-opts": [
-                "-Dgtk_doc=false",
-                "-Dtests=false",
                 "-Dexamples=false",
+                "-Dgtk_doc=false",
+                "-Dintrospection=disabled",
+                "-Dtests=false",
                 "-Dvapi=false"
             ],
             "sources" : [
                 {
-                    "type" : "git",
-                    "url" : "https://gitlab.gnome.org/GNOME/libadwaita.git",
-                    "commit": "e2c030b8ab9e786f0793e5916864ff009d6391c1"
+                    "type" : "archive",
+                    "url" : "https://download.gnome.org/sources/libadwaita/1.0/libadwaita-1.0.0.alpha.3.tar.xz",
+                    "sha256": "89f05fa742cabc5ea6a2c0295c34996af5ac953e9d020ace27b8e8b15cf9e050"
                 }
             ],
             "modules" : [
@@ -79,8 +80,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gitlab.gnome.org/msandova/emblem/uploads/3e68f2326b601bc468d4c8a63ea7fae2/emblem-0.1.0.tar.xz",
-                    "sha256": "7208e71333e5c2335e2159ca49d0c5fe25970300c0ea2a3ae9356ecfd197d664"
+                    "url": "https://gitlab.gnome.org/World/design/emblem/uploads/0bab604bade588edf6730c2741d85c93/emblem-0.1.1.tar.xz",
+                    "sha256": "2045feaaeefeeb6e0e26b7eb8ad274cb4dd31d2c7bd606eb3e97ea4d1256dab6"
                 }
             ]
         }
