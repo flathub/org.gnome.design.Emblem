@@ -80,8 +80,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gitlab.gnome.org/World/design/emblem/uploads/0bab604bade588edf6730c2741d85c93/emblem-0.1.1.tar.xz",
-                    "sha256": "2045feaaeefeeb6e0e26b7eb8ad274cb4dd31d2c7bd606eb3e97ea4d1256dab6"
+                    "url": "https://gitlab.gnome.org/World/design/emblem/uploads/cd02ec5fc59f1b677b4634a49ddee746/emblem-0.1.2.tar.xz",
+                    "sha256": "469c482681b769aa9531c62b0a97c09f01e7664486fe8ce85728a8e4ec790367"
                 }
             ]
         }
