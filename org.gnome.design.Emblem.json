@@ -32,8 +32,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gitlab.gnome.org/World/design/emblem/uploads/5094e016330ed36b05c712bbbd74e54c/emblem-1.0.0.tar.xz",
-                    "sha256": "67bd03bf71f3a4a6738ca5b48e788571d003ab6f1155a40b23e3d821d7cbf94b"
+                    "url": "https://gitlab.gnome.org/World/design/emblem/uploads/e5211dcfda2e30e117cf3b1719aa9ed1/emblem-1.1.0.tar.xz",
+                    "sha256": "d729a312fcc994e0275b4aa9136cda7b4274168ad13a98a60b38c8eadc63e05a"
                 }
             ]
         }
