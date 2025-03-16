@@ -1,7 +1,7 @@
 {
     "id": "org.gnome.design.Emblem",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "47",
+    "runtime-version": "48",
     "sdk": "org.gnome.Sdk",
     "sdk-extensions": ["org.freedesktop.Sdk.Extension.rust-stable"],
     "command": "emblem",
@@ -32,8 +32,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gitlab.gnome.org/World/design/emblem/uploads/9281a3286d92b73df7b6cec74378a8d2/emblem-1.4.0.tar.xz",
-                    "sha256": "b4de0ed5ee638de368369baa2577322fee1ae2127a2dd423a737fabdb0da1e6d"
+                    "url": "https://gitlab.gnome.org/-/project/17241/uploads/a9cdda5a838775111323b44774b7adeb/emblem-1.5.0.tar.xz",
+                    "sha256": "7760da7edfeba6da427034bb24ea641faca40ef1675e020a67786f84eb8c488d"
                 }
             ]
         }
