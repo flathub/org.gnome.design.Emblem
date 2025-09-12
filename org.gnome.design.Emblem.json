@@ -33,7 +33,13 @@
                 {
                     "type": "archive",
                     "url": "https://gitlab.gnome.org/-/project/17241/uploads/a9cdda5a838775111323b44774b7adeb/emblem-1.5.0.tar.xz",
-                    "sha256": "7760da7edfeba6da427034bb24ea641faca40ef1675e020a67786f84eb8c488d"
+                    "sha256": "7760da7edfeba6da427034bb24ea641faca40ef1675e020a67786f84eb8c488d",
+                    "x-checker-data": {
+                        "type": "json",
+                        "url": "https://gitlab.gnome.org/api/v4/projects/17241/releases/",
+                        "version-query": ".[0].tag_name",
+                        "url-query": ".[0].assets.links.[] | select(.name == \"emblem-\" + $version + \".tar.xz\") | .direct_asset_url"
+                    }
                 }
             ]
         }
