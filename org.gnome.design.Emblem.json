@@ -1,18 +1,20 @@
 {
     "id": "org.gnome.design.Emblem",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "48",
+    "runtime-version": "49",
     "sdk": "org.gnome.Sdk",
-    "sdk-extensions": ["org.freedesktop.Sdk.Extension.rust-stable"],
+    "sdk-extensions": [
+        "org.freedesktop.Sdk.Extension.rust-stable"
+    ],
     "command": "emblem",
-    "finish-args" : [
+    "finish-args": [
         "--share=ipc",
         "--socket=fallback-x11",
         "--socket=wayland",
         "--device=dri"
     ],
-    "build-options" : {
-        "append-path" : "/usr/lib/sdk/rust-stable/bin"
+    "build-options": {
+        "append-path": "/usr/lib/sdk/rust-stable/bin"
     },
     "cleanup": [
         "/include",
@@ -32,8 +34,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gitlab.gnome.org/-/project/17241/uploads/a9cdda5a838775111323b44774b7adeb/emblem-1.5.0.tar.xz",
-                    "sha256": "7760da7edfeba6da427034bb24ea641faca40ef1675e020a67786f84eb8c488d",
+                    "url": "https://gitlab.gnome.org/World/design/emblem/-/releases/1.6.0/downloads/emblem-1.6.0.tar.xz",
+                    "sha256": "7c7022cf2115f6689f565a4202e8c4ba44a05afef140e9c669ac38e18c58b3ea",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://gitlab.gnome.org/api/v4/projects/17241/releases/",
