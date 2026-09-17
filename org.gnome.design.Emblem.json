@@ -1,7 +1,7 @@
 {
     "id": "org.gnome.design.Emblem",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "50",
+    "runtime-version": "51",
     "sdk": "org.gnome.Sdk",
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable"
@@ -23,8 +23,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gitlab.gnome.org/World/design/emblem/-/releases/1.6.0/downloads/emblem-1.6.0.tar.xz",
-                    "sha256": "7c7022cf2115f6689f565a4202e8c4ba44a05afef140e9c669ac38e18c58b3ea",
+                    "url": "https://gitlab.gnome.org/World/design/emblem/-/releases/1.7.0/downloads/emblem-1.7.0.tar.xz",
+                    "sha256": "7d5578d607c463d670c4f4837390b0b4309b00a4ca186b0de15ef3c3b1c57086",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://gitlab.gnome.org/api/v4/projects/17241/releases/",
